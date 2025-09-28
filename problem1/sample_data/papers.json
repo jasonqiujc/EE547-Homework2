@@ -1,0 +1,222 @@
+[
+  {
+    "arxiv_id": "9905014v1",
+    "title": "Hierarchical Reinforcement Learning with the MAXQ Value Function\n  Decomposition",
+    "authors": [
+      "Thomas G. Dietterich"
+    ],
+    "abstract": "This paper presents the MAXQ approach to hierarchical reinforcement learning\nbased on decomposing the target Markov decision process (MDP) into a hierarchy\nof smaller MDPs and decomposing the value function of the target MDP into an\nadditive combination of the value functions of the smaller MDPs. The paper\ndefines the MAXQ hierarchy, proves formal results on its representational\npower, and establishes five conditions for the safe use of state abstractions.\nThe paper presents an online model-free learning algorithm, MAXQ-Q, and proves\nthat it converges wih probability 1 to a kind of locally-optimal policy known\nas a recursively optimal policy, even in the presence of the five kinds of\nstate abstraction. The paper evaluates the MAXQ representation and MAXQ-Q\nthrough a series of experiments in three domains and shows experimentally that\nMAXQ-Q (with state abstractions) converges to a recursively optimal policy much\nfaster than flat Q learning. The fact that MAXQ learns a representation of the\nvalue function has an important benefit: it makes it possible to compute and\nexecute an improved, non-hierarchical policy via a procedure similar to the\npolicy improvement step of policy iteration. The paper demonstrates the\neffectiveness of this non-hierarchical execution experimentally. Finally, the\npaper concludes with a comparison to related work and a discussion of the\ndesign tradeoffs in hierarchical reinforcement learning.",
+    "categories": [
+      "cs.LG",
+      "I.2.6"
+    ],
+    "published": "1999-05-21T14:26:07Z",
+    "updated": "1999-05-21T14:26:07Z",
+    "abstract_stats": {
+      "total_words": 223,
+      "unique_words": 111,
+      "total_sentences": 7,
+      "avg_words_per_sentence": 31.857142857142858,
+      "avg_word_length": 5.367713004484305
+    }
+  },
+  {
+    "arxiv_id": "9905015v1",
+    "title": "State Abstraction in MAXQ Hierarchical Reinforcement Learning",
+    "authors": [
+      "Thomas G. Dietterich"
+    ],
+    "abstract": "Many researchers have explored methods for hierarchical reinforcement\nlearning (RL) with temporal abstractions, in which abstract actions are defined\nthat can perform many primitive actions before terminating. However, little is\nknown about learning with state abstractions, in which aspects of the state\nspace are ignored. In previous work, we developed the MAXQ method for\nhierarchical RL. In this paper, we define five conditions under which state\nabstraction can be combined with the MAXQ value function decomposition. We\nprove that the MAXQ-Q learning algorithm converges under these conditions and\nshow experimentally that state abstraction is important for the successful\napplication of MAXQ-Q learning.",
+    "categories": [
+      "cs.LG",
+      "I.2.6"
+    ],
+    "published": "1999-05-21T14:49:39Z",
+    "updated": "1999-05-21T14:49:39Z",
+    "abstract_stats": {
+      "total_words": 104,
+      "unique_words": 65,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 20.8,
+      "avg_word_length": 5.721153846153846
+    }
+  },
+  {
+    "arxiv_id": "0001004v1",
+    "title": "Multiplicative Algorithm for Orthgonal Groups and Independent Component\n  Analysis",
+    "authors": [
+      "Toshinao Akuzawa"
+    ],
+    "abstract": "The multiplicative Newton-like method developed by the author et al. is\nextended to the situation where the dynamics is restricted to the orthogonal\ngroup. A general framework is constructed without specifying the cost function.\nThough the restriction to the orthogonal groups makes the problem somewhat\ncomplicated, an explicit expression for the amount of individual jumps is\nobtained. This algorithm is exactly second-order-convergent. The global\ninstability inherent in the Newton method is remedied by a\nLevenberg-Marquardt-type variation. The method thus constructed can readily be\napplied to the independent component analysis. Its remarkable performance is\nillustrated by a numerical simulation.",
+    "categories": [
+      "cs.LG",
+      "G.1.6"
+    ],
+    "published": "2000-01-07T06:20:53Z",
+    "updated": "2000-01-07T06:20:53Z",
+    "abstract_stats": {
+      "total_words": 103,
+      "unique_words": 72,
+      "total_sentences": 8,
+      "avg_words_per_sentence": 12.875,
+      "avg_word_length": 5.747572815533981
+    }
+  },
+  {
+    "arxiv_id": "0002006v1",
+    "title": "Multiplicative Nonholonomic/Newton -like Algorithm",
+    "authors": [
+      "Toshinao Akuzawa",
+      "Noboru Murata"
+    ],
+    "abstract": "We construct new algorithms from scratch, which use the fourth order cumulant\nof stochastic variables for the cost function. The multiplicative updating rule\nhere constructed is natural from the homogeneous nature of the Lie group and\nhas numerous merits for the rigorous treatment of the dynamics. As one\nconsequence, the second order convergence is shown. For the cost function,\nfunctions invariant under the componentwise scaling are choosen. By identifying\npoints which can be transformed to each other by the scaling, we assume that\nthe dynamics is in a coset space. In our method, a point can move toward any\ndirection in this coset. Thus, no prewhitening is required.",
+    "categories": [
+      "cs.LG",
+      "G.1.6"
+    ],
+    "published": "2000-02-09T06:44:28Z",
+    "updated": "2000-02-09T06:44:28Z",
+    "abstract_stats": {
+      "total_words": 108,
+      "unique_words": 76,
+      "total_sentences": 7,
+      "avg_words_per_sentence": 15.428571428571429,
+      "avg_word_length": 5.12962962962963
+    }
+  },
+  {
+    "arxiv_id": "0009001v3",
+    "title": "Complexity analysis for algorithmically simple strings",
+    "authors": [
+      "Andrei N. Soklakov"
+    ],
+    "abstract": "Given a reference computer, Kolmogorov complexity is a well defined function\non all binary strings. In the standard approach, however, only the asymptotic\nproperties of such functions are considered because they do not depend on the\nreference computer. We argue that this approach can be more useful if it is\nrefined to include an important practical case of simple binary strings.\nKolmogorov complexity calculus may be developed for this case if we restrict\nthe class of available reference computers. The interesting problem is to\ndefine a class of computers which is restricted in a {\\it natural} way modeling\nthe real-life situation where only a limited class of computers is physically\navailable to us. We give an example of what such a natural restriction might\nlook like mathematically, and show that under such restrictions some error\nterms, even logarithmic in complexity, can disappear from the standard\ncomplexity calculus.\n  Keywords: Kolmogorov complexity; Algorithmic information theory.",
+    "categories": [
+      "cs.LG",
+      "E.4; F.2; I.2"
+    ],
+    "published": "2000-09-05T18:54:58Z",
+    "updated": "2002-02-26T01:51:09Z",
+    "abstract_stats": {
+      "total_words": 154,
+      "unique_words": 96,
+      "total_sentences": 7,
+      "avg_words_per_sentence": 22.0,
+      "avg_word_length": 5.376623376623376
+    }
+  },
+  {
+    "arxiv_id": "0009007v1",
+    "title": "Robust Classification for Imprecise Environments",
+    "authors": [
+      "Foster Provost",
+      "Tom Fawcett"
+    ],
+    "abstract": "In real-world environments it usually is difficult to specify target\noperating conditions precisely, for example, target misclassification costs.\nThis uncertainty makes building robust classification systems problematic. We\nshow that it is possible to build a hybrid classifier that will perform at\nleast as well as the best available classifier for any target conditions. In\nsome cases, the performance of the hybrid actually can surpass that of the best\nknown classifier. This robust performance extends across a wide variety of\ncomparison frameworks, including the optimization of metrics such as accuracy,\nexpected cost, lift, precision, recall, and workforce utilization. The hybrid\nalso is efficient to build, to store, and to update. The hybrid is based on a\nmethod for the comparison of classifier performance that is robust to imprecise\nclass distributions and misclassification costs. The ROC convex hull (ROCCH)\nmethod combines techniques from ROC analysis, decision analysis and\ncomputational geometry, and adapts them to the particulars of analyzing learned\nclassifiers. The method is efficient and incremental, minimizes the management\nof classifier performance data, and allows for clear visual comparisons and\nsensitivity analyses. Finally, we point to empirical evidence that a robust\nhybrid classifier indeed is needed for many real-world problems.",
+    "categories": [
+      "cs.LG",
+      "I.2.6"
+    ],
+    "published": "2000-09-13T21:09:47Z",
+    "updated": "2000-09-13T21:09:47Z",
+    "abstract_stats": {
+      "total_words": 200,
+      "unique_words": 116,
+      "total_sentences": 10,
+      "avg_words_per_sentence": 20.0,
+      "avg_word_length": 5.695
+    }
+  },
+  {
+    "arxiv_id": "0011032v1",
+    "title": "Top-down induction of clustering trees",
+    "authors": [
+      "Hendrik Blockeel",
+      "Luc De Raedt",
+      "Jan Ramon"
+    ],
+    "abstract": "An approach to clustering is presented that adapts the basic top-down\ninduction of decision trees method towards clustering. To this aim, it employs\nthe principles of instance based learning. The resulting methodology is\nimplemented in the TIC (Top down Induction of Clustering trees) system for\nfirst order clustering. The TIC system employs the first order logical decision\ntree representation of the inductive logic programming system Tilde. Various\nexperiments with TIC are presented, in both propositional and relational\ndomains.",
+    "categories": [
+      "cs.LG",
+      "I.2.6"
+    ],
+    "published": "2000-11-21T21:51:01Z",
+    "updated": "2000-11-21T21:51:01Z",
+    "abstract_stats": {
+      "total_words": 79,
+      "unique_words": 51,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 15.8,
+      "avg_word_length": 5.658227848101266
+    }
+  },
+  {
+    "arxiv_id": "0011044v1",
+    "title": "Scaling Up Inductive Logic Programming by Learning from Interpretations",
+    "authors": [
+      "Hendrik Blockeel",
+      "Luc De Raedt",
+      "Nico Jacobs",
+      "Bart Demoen"
+    ],
+    "abstract": "When comparing inductive logic programming (ILP) and attribute-value learning\ntechniques, there is a trade-off between expressive power and efficiency.\nInductive logic programming techniques are typically more expressive but also\nless efficient. Therefore, the data sets handled by current inductive logic\nprogramming systems are small according to general standards within the data\nmining community. The main source of inefficiency lies in the assumption that\nseveral examples may be related to each other, so they cannot be handled\nindependently.\n  Within the learning from interpretations framework for inductive logic\nprogramming this assumption is unnecessary, which allows to scale up existing\nILP algorithms. In this paper we explain this learning setting in the context\nof relational databases. We relate the setting to propositional data mining and\nto the classical ILP setting, and show that learning from interpretations\ncorresponds to learning from multiple relations and thus extends the\nexpressiveness of propositional learning, while maintaining its efficiency to a\nlarge extent (which is not the case in the classical ILP setting).\n  As a case study, we present two alternative implementations of the ILP system\nTilde (Top-down Induction of Logical DEcision trees): Tilde-classic, which\nloads all data in main memory, and Tilde-LDS, which loads the examples one by\none. We experimentally compare the implementations, showing Tilde-LDS can\nhandle large data sets (in the order of 100,000 examples or 100 MB) and indeed\nscales up linearly in the number of examples.",
+    "categories": [
+      "cs.LG",
+      "I.2.6 ; I.2.3"
+    ],
+    "published": "2000-11-29T12:14:50Z",
+    "updated": "2000-11-29T12:14:50Z",
+    "abstract_stats": {
+      "total_words": 240,
+      "unique_words": 132,
+      "total_sentences": 9,
+      "avg_words_per_sentence": 26.666666666666668,
+      "avg_word_length": 5.445833333333334
+    }
+  },
+  {
+    "arxiv_id": "0103003v1",
+    "title": "Learning Policies with External Memory",
+    "authors": [
+      "Leonid Peshkin",
+      "Nicolas Meuleau",
+      "Leslie Kaelbling"
+    ],
+    "abstract": "In order for an agent to perform well in partially observable domains, it is\nusually necessary for actions to depend on the history of observations. In this\npaper, we explore a {\\it stigmergic} approach, in which the agent's actions\ninclude the ability to set and clear bits in an external memory, and the\nexternal memory is included as part of the input to the agent. In this case, we\nneed to learn a reactive policy in a highly non-Markovian domain. We explore\ntwo algorithms: SARSA(\\lambda), which has had empirical success in partially\nobservable domains, and VAPS, a new algorithm due to Baird and Moore, with\nconvergence guarantees in partially observable domains. We compare the\nperformance of these two algorithms on benchmark problems.",
+    "categories": [
+      "cs.LG",
+      "I.2.8;I.2.6;I.2.11;I.2;I.2.3"
+    ],
+    "published": "2001-03-02T01:55:46Z",
+    "updated": "2001-03-02T01:55:46Z",
+    "abstract_stats": {
+      "total_words": 125,
+      "unique_words": 74,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 25.0,
+      "avg_word_length": 4.8
+    }
+  },
+  {
+    "arxiv_id": "0110036v1",
+    "title": "Efficient algorithms for decision tree cross-validation",
+    "authors": [
+      "Hendrik Blockeel",
+      "Jan Struyf"
+    ],
+    "abstract": "Cross-validation is a useful and generally applicable technique often\nemployed in machine learning, including decision tree induction. An important\ndisadvantage of straightforward implementation of the technique is its\ncomputational overhead. In this paper we show that, for decision trees, the\ncomputational overhead of cross-validation can be reduced significantly by\nintegrating the cross-validation with the normal decision tree induction\nprocess. We discuss how existing decision tree algorithms can be adapted to\nthis aim, and provide an analysis of the speedups these adaptations may yield.\nThe analysis is supported by experimental results.",
+    "categories": [
+      "cs.LG",
+      "I.2.6"
+    ],
+    "published": "2001-10-17T15:45:23Z",
+    "updated": "2001-10-17T15:45:23Z",
+    "abstract_stats": {
+      "total_words": 93,
+      "unique_words": 61,
+      "total_sentences": 5,
+      "avg_words_per_sentence": 18.6,
+      "avg_word_length": 5.881720430107527
+    }
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "account_info": {
+    "account_id": "337159794468",
+    "user_arn": "arn:aws:iam::337159794468:root",
+    "region": "us-east-1",
+    "scan_timestamp": "2025-09-27T00:56:37Z"
+  },
+  "resources": {
+    "iam_users": [
+      {
+        "username": "jasonqiu",
+        "user_id": "AIDAU5ACKF4SLBJWCHUCA",
+        "arn": "arn:aws:iam::337159794468:user/jasonqiu",
+        "create_date": "2025-09-27T00:51:28Z",
+        "last_activity": null,
+        "attached_policies": [
+          {
+            "policy_name": "IAMUserChangePassword",
+            "policy_arn": "arn:aws:iam::aws:policy/IAMUserChangePassword"
+          }
+        ]
+      }
+    ],
+    "ec2_instances": [],
+    "s3_buckets": [],
+    "security_groups": [
+      {
+        "group_id": "sg-0f2885bbe2bcf862a",
+        "group_name": "default",
+        "description": "default VPC security group",
+        "vpc_id": "vpc-0670294b8c64c8ea8",
+        "inbound_rules": [],
+        "outbound_rules": [
+          {
+            "protocol": "-1",
+            "port_range": "all",
+            "destination": "0.0.0.0/0"
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "total_users": 1,
+    "instances_total": 0,
+    "instances_running": 0,
+    "total_buckets": 0,
+    "security_groups": 1
+  }
+}

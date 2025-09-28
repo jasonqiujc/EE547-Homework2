@@ -1,0 +1,355 @@
+{
+  "query": "cat:cs.LG",
+  "papers_processed": 10,
+  "processing_timestamp": "2025-09-12T22:18:36.474985Z",
+  "corpus_stats": {
+    "total_abstracts": 10,
+    "total_words": 1429,
+    "unique_words_global": 538,
+    "avg_abstract_length": 142.9,
+    "longest_abstract_words": 240,
+    "shortest_abstract_words": 79
+  },
+  "top_50_words": [
+    {
+      "word": "the",
+      "frequency": 107,
+      "documents": 10
+    },
+    {
+      "word": "of",
+      "frequency": 50,
+      "documents": 10
+    },
+    {
+      "word": "to",
+      "frequency": 38,
+      "documents": 9
+    },
+    {
+      "word": "in",
+      "frequency": 36,
+      "documents": 10
+    },
+    {
+      "word": "is",
+      "frequency": 35,
+      "documents": 9
+    },
+    {
+      "word": "a",
+      "frequency": 32,
+      "documents": 8
+    },
+    {
+      "word": "and",
+      "frequency": 32,
+      "documents": 9
+    },
+    {
+      "word": "we",
+      "frequency": 20,
+      "documents": 7
+    },
+    {
+      "word": "for",
+      "frequency": 19,
+      "documents": 10
+    },
+    {
+      "word": "that",
+      "frequency": 18,
+      "documents": 8
+    },
+    {
+      "word": "this",
+      "frequency": 17,
+      "documents": 10
+    },
+    {
+      "word": "learning",
+      "frequency": 16,
+      "documents": 5
+    },
+    {
+      "word": "an",
+      "frequency": 12,
+      "documents": 6
+    },
+    {
+      "word": "which",
+      "frequency": 12,
+      "documents": 5
+    },
+    {
+      "word": "maxq",
+      "frequency": 11,
+      "documents": 2
+    },
+    {
+      "word": "can",
+      "frequency": 11,
+      "documents": 7
+    },
+    {
+      "word": "paper",
+      "frequency": 10,
+      "documents": 5
+    },
+    {
+      "word": "it",
+      "frequency": 10,
+      "documents": 5
+    },
+    {
+      "word": "decision",
+      "frequency": 9,
+      "documents": 5
+    },
+    {
+      "word": "method",
+      "frequency": 9,
+      "documents": 5
+    },
+    {
+      "word": "be",
+      "frequency": 9,
+      "documents": 6
+    },
+    {
+      "word": "by",
+      "frequency": 9,
+      "documents": 4
+    },
+    {
+      "word": "with",
+      "frequency": 8,
+      "documents": 5
+    },
+    {
+      "word": "on",
+      "frequency": 7,
+      "documents": 4
+    },
+    {
+      "word": "function",
+      "frequency": 7,
+      "documents": 5
+    },
+    {
+      "word": "state",
+      "frequency": 7,
+      "documents": 2
+    },
+    {
+      "word": "policy",
+      "frequency": 7,
+      "documents": 2
+    },
+    {
+      "word": "as",
+      "frequency": 7,
+      "documents": 5
+    },
+    {
+      "word": "are",
+      "frequency": 7,
+      "documents": 5
+    },
+    {
+      "word": "order",
+      "frequency": 7,
+      "documents": 5
+    },
+    {
+      "word": "from",
+      "frequency": 7,
+      "documents": 4
+    },
+    {
+      "word": "hierarchical",
+      "frequency": 6,
+      "documents": 2
+    },
+    {
+      "word": "q",
+      "frequency": 6,
+      "documents": 2
+    },
+    {
+      "word": "performance",
+      "frequency": 6,
+      "documents": 3
+    },
+    {
+      "word": "classifier",
+      "frequency": 6,
+      "documents": 1
+    },
+    {
+      "word": "data",
+      "frequency": 6,
+      "documents": 2
+    },
+    {
+      "word": "approach",
+      "frequency": 5,
+      "documents": 4
+    },
+    {
+      "word": "target",
+      "frequency": 5,
+      "documents": 2
+    },
+    {
+      "word": "value",
+      "frequency": 5,
+      "documents": 3
+    },
+    {
+      "word": "conditions",
+      "frequency": 5,
+      "documents": 3
+    },
+    {
+      "word": "domains",
+      "frequency": 5,
+      "documents": 3
+    },
+    {
+      "word": "show",
+      "frequency": 5,
+      "documents": 5
+    },
+    {
+      "word": "analysis",
+      "frequency": 5,
+      "documents": 3
+    },
+    {
+      "word": "algorithms",
+      "frequency": 5,
+      "documents": 4
+    },
+    {
+      "word": "complexity",
+      "frequency": 5,
+      "documents": 1
+    },
+    {
+      "word": "case",
+      "frequency": 5,
+      "documents": 3
+    },
+    {
+      "word": "hybrid",
+      "frequency": 5,
+      "documents": 1
+    },
+    {
+      "word": "induction",
+      "frequency": 5,
+      "documents": 3
+    },
+    {
+      "word": "inductive",
+      "frequency": 5,
+      "documents": 2
+    },
+    {
+      "word": "logic",
+      "frequency": 5,
+      "documents": 2
+    }
+  ],
+  "technical_terms": {
+    "uppercase_terms": [
+      "A",
+      "Algorithmic",
+      "An",
+      "As",
+      "Baird",
+      "By",
+      "Clustering",
+      "Cross",
+      "DEcision",
+      "Finally",
+      "For",
+      "Given",
+      "However",
+      "ILP",
+      "In",
+      "Induction",
+      "Inductive",
+      "Its",
+      "Keywords",
+      "Kolmogorov",
+      "LDS",
+      "Levenberg",
+      "Lie",
+      "Logical",
+      "MAXQ",
+      "MB",
+      "MDP",
+      "MDPs",
+      "Many",
+      "Markov",
+      "Markovian",
+      "Marquardt",
+      "Moore",
+      "Newton",
+      "Q",
+      "RL",
+      "ROC",
+      "ROCCH",
+      "SARSA",
+      "TIC",
+      "The",
+      "Therefore",
+      "This",
+      "Though",
+      "Thus",
+      "Tilde",
+      "To",
+      "Top",
+      "VAPS",
+      "Various",
+      "We",
+      "When",
+      "Within"
+    ],
+    "numeric_terms": [
+      "000",
+      "1",
+      "100"
+    ],
+    "hyphenated_terms": [
+      "Cross-validation",
+      "Levenberg-Marquardt-type",
+      "MAXQ-Q",
+      "Newton-like",
+      "Tilde-LDS",
+      "Tilde-classic",
+      "Top-down",
+      "attribute-value",
+      "cross-validation",
+      "locally-optimal",
+      "model-free",
+      "non-Markovian",
+      "non-hierarchical",
+      "real-life",
+      "real-world",
+      "second-order-convergent",
+      "top-down",
+      "trade-off"
+    ]
+  },
+  "category_distribution": {
+    "cs.LG": 10,
+    "I.2.6": 5,
+    "G.1.6": 2,
+    "E.4; F.2; I.2": 1,
+    "I.2.6 ; I.2.3": 1,
+    "I.2.8;I.2.6;I.2.11;I.2;I.2.3": 1
+  }
+}
